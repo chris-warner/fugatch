@@ -1,17 +1,11 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
-    "database": "Fuggatch",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "use_environmental_variable": "JAWS_URL",
+    "dialect":"mysql"
   },
   "test": {
-    "username": "root",
-    "password": "root",
-    "database": "Fuggatch",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "use_environmental_variable": "JAWS_URL",
+    "dialect":"mysql"
   },
   "production": {
     "use_environmental_variable": "JAWS_URL",
