@@ -13,6 +13,9 @@
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
+        <a class="navbar-brand" href="/Home">
+          Home
+        </a>
         <a class="navbar-brand" href="/logout">
           Logout
         </a>
@@ -20,6 +23,12 @@
     </div>
   </nav>
   <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Fugatch</h1>
+            <p class="lead"></p>
+          </div>
+        </div>
     <div class="row">
 
       <div class="container">
@@ -39,14 +48,12 @@
           </div>
           <div class="col-sm-6 col-md-4">
             <video width="320" height="240" controls>
-              <source src="../public/videos/IMG_0003.mp4" type="video/mp4">
+              <source src="../videos/IMG_0003.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
         </div>
-
         <div class="row">
-
           <div class="col-sm-6 col-md-4">
             <video width="320" height="240" controls>
               <source src="../videos/IMG_0004.mp4" type="video/mp4">
@@ -175,14 +182,27 @@
         </div>
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="/__/firebase/6.3.3/firebase-app.js"></script>
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+      <!-- Initialize Firebase -->
+      <script src="/__/firebase/init.js"></script>
       <script type="text/javascript" src="js/members.js"></script>
 </body>
 <footer>
-<div class="container">
-  <div class="text-center center-block">
-    <br />
-    <a href="https://www.instagram.com/fu_gatch/">Instagram</a>
-  </div>
-</div>
+    Copy
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+      <a class="navbar-brand" href="#">Fixed bottom</a>
+    </nav>
+<!-- 
+  <div class="container" id="footer">
+    <div class="text-center center-block">
+      <a href="https://www.instagram.com/fu_gatch/">Instagram</a>
+    </div>
+  </div> -->
 </footer>
+
 </html>

@@ -1,11 +1,19 @@
 {
   "development": {
-    "use_env_variable": "JAWSDB_URL",
-    "dialect":"mysql"
+  "host": "127.0.0.1",
+  "username": "root",
+  "password": "root",
+  "user": "root",
+  "dialect":"mysql",
+  "database": "Fuggatch"
   },
   "test": {
-    "use_env_variable": "JAWSDB_URL",
-    "dialect":"mysql"
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "root",
+    "dialect":"mysql",
+    "database": "Fuggatch"
   },
   "production": {
     "use_env_variable": "JAWSDB_URL",
