@@ -1,6 +1,8 @@
 form.signup,
-form.login {
-  align-content: center
+.signin,
+form.signin {
+  align-content: center;
+  position: absolute;
 }
 
 .navbody {
@@ -11,5 +13,7 @@ form.login {
 .nav,
 .fixed-bottom {
   width:100%;
-
+  background-color:rgb(0, 0, 0);
+  align-self: auto;
+  color: black;
 }
