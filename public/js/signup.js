@@ -21,6 +21,22 @@ $(document).ready(function() {
     passwordInput.val("");
   });
 
+
+  $("#signupFormButton").click(()=>{
+    event.preventDefault();
+    var userData = {
+      email: emailInput.val().trim(),
+      password: passwordInput.val().trim()
+    };
+
+    if (!userData.email || !userData.password) {
+      return;
+    }
+    // If we have an email and password, run the signUpUser function
+    signUpUser(userData.email, userData.password);
+    emailInput.val("");
+    passwordInput.val("");
+  });
   // Does a post to the signup route. If successful, we are redirected to the members page
   // Otherwise we log any errors
   function signUpUser(email, password) {
