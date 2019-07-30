@@ -32,6 +32,7 @@ video {
   border-color:rgb(72, 212, 255);
   border-width: 0.1px;
   border-style: solid;
+  
 }
 
 
@@ -44,3 +45,16 @@ video {
 }
 
 
+.navbar {
+  width:100%;
+  margin: auto;
+  position: static;
+
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
