@@ -62,7 +62,7 @@ img {
  margin-left: 0px;
 
  object-position: bottom;
- float: bottom;
+ float: bottom  ;
 }
 .masthead-brand {
 font-style: normal;
