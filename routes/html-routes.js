@@ -30,6 +30,7 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/signup.html"));
   });
 
+  
 
   //temp. disabled as requested.
   // Here we've add our isAuthenticated middleware to this route.
@@ -37,5 +38,7 @@ module.exports = function(app) {
   app.get("/members", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/members.html"));
   });
-
+  app.get("/home", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/landingpage.html"));
+  });
 };
