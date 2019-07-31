@@ -27,6 +27,8 @@ video {
   border-color: rgb(72, 212, 255);
   border-width: 0.1px;
   border-style: solid;
+  margin: 8px;
+  background-color: white;
 }
 
 h2 {
