@@ -2,8 +2,6 @@
 var express = require("express");
 var session = require("express-session");
 // Requiring passport as we've configured it
-var sslRedirect = require('heroku-ssl-redirect');
-
 var passport = require("./config/passport");
 
 // Setting up port and requiring models for syncing
@@ -13,12 +11,6 @@ var db = require("./models");
 // Creating express app and configuring middleware needed for authentication
 var app = express();
 app.use(express.static("public"));
-app.use(sslRedirect());
-app.use(sslRedirect([
-  'other',
-  'development',
-  'production'
-  ]));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // We need to use sessions to keep track of our user's signin status
