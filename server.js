@@ -14,7 +14,11 @@ var db = require("./models");
 var app = express();
 app.use(express.static("public"));
 app.use(sslRedirect());
-
+app.use(sslRedirect([
+  'other',
+  'development',
+  'production'
+  ]));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // We need to use sessions to keep track of our user's signin status
