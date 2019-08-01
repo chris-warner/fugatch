@@ -34,7 +34,7 @@ body {
 img {
 
   width: fit-content;
-  height: 100px;
+  height: 400px;
   object-fit: cover;
 }
 
