@@ -7,6 +7,11 @@ img {
   border-width: 0.1 px;
 }
 
+body {
+font-family:  cursive;
+
+}
+
 .fixed-bottom {
   bottom: 0px;
   position: static;
