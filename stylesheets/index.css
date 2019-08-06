@@ -8,6 +8,11 @@ a:focus,
 a:hover {
 }
 
+body {
+font-family:  cursive;
+
+}
+
 .navbar {
   background-color: rgb(255, 255, 255);
   color: white;
