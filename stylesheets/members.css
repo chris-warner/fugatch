@@ -28,14 +28,27 @@ video {
   border-width: 0.1px;
   border-style: solid;
   margin: 8px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.5);
+color:black;
 }
 
 h2 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+
 }
 .navbar-brand {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+body {
+font-family:  cursive;
+
 }
